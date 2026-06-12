@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments (Sanal Ortamlar)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyCharm / JetBrains Settings
+.idea/
+
+# VS Code Settings
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Ağırlıkları ve Checkpointler (Çok büyük dosyalar olduğu için Git'e yüklenmemeli)
+checkpoints/
+
+# Veri Kümeleri ve Yedekler
+split/
+dataset_split/
+data_backups/
+*.pth
+*.pt
+*.h5
