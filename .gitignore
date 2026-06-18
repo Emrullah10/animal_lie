@@ -32,3 +32,11 @@ data_backups/
 *.pth
 *.pt
 *.h5
+
+# Analiz/Test Çıktıları (grafikler, raporlar — yeniden üretilebilir)
+final_analiz_raporu*/
+sonuc_grafikleri/
+*_run_log.txt
+
+# Arşivler
+*.zip
